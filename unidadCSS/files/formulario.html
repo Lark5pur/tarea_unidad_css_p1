@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles/formulario_style.css">
+</head>
+<body>
+    <form action="" method="">
+        <p>
+            <label for="nom">Nombre y apellido: </label>
+            <input type="text" name="nombre" placeholder="nombre" />
+        </p>
+        <p>
+            <input type="text" name="apellido" placeholder="apellido" />
+        </p>
+        <label for="sexo">Sexo: </label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="hombre">
+                <label>Hombre</label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" value="mujer">
+                <label>Mujer</label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" value="noEspecifico">
+                <label>Deseo no especificar</label>
+            </li>
+        </ul>
+        <p>
+            <label for="correo">Correo electronico: </label>
+            <input type="text" name="correo" placeholder="nombreapellido@outlook.com"/>
+        </p>
+        <p>
+            <label for="numero">Numero telefonico: </label>
+            <input type="" name="numero" placeholder="+##########" /> 
+        </p>
+        <p>
+            <label for="razon">Razón de contacto:</label>
+            <select name="razon">
+                <option value="consejo">Consejo</option>
+                <option value="oportunidad">Propuesta laboral</option>
+                <option value="contacto">Contacto privado</option>
+            </select>
+        </p>
+        <p>
+            <label for="mensaje">Mensaje: </label>
+            <input type="text" name="mensaje" placeholder="escriba su mensaje aqui">
+        </p>
+        <p>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+        </p>
+    </form>
+    <p>volver al <a href="./index.html">curriculum</a></p>
+</body>
+</html>
