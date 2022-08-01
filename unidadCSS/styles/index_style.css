@@ -21,9 +21,9 @@ ol, ul{
 
 li{
     display: list-item;
-    background: rgb(59, 82, 99);;
+    background: rgb(59, 82, 99);
     padding: 5px 10px;
-    color:white;
+    color: white;
     margin: 0 3px;
 }
 
